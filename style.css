@@ -16,18 +16,19 @@ body {
     background-image: url(./img/code-pattern.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.05;    
+    opacity: 0.05;
+    position: relative;    
 }
 
 /* # Container */
 
 .container {
-    max-width: 1080px;
+    width: 1080px;
     margin: 0 auto;
-    position:fixed; 
+    position: absolute;
     top: 0;
-    left: calc(100vw - 1080px);
-    translate: calc((100vw - 1080px) / 2 * -1);
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 /* # Utilites */

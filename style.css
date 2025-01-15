@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Quantico', sans-serif;
 }
 
 body {
@@ -28,9 +29,16 @@ body {
     align-items: center;
 }
 
-#content > div {
-    border: 10px solid white;
-}
-
 /* text-section */
 
+#text h1, #text h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
